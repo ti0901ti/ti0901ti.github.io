@@ -88,7 +88,14 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+.work-item{
+    line-height: 0;
+}
+
 .work-item img {
     max-width: 100%;
     height: auto;
+    object-fit: cover;
+    aspect-ratio: 1/2;
 }

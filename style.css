@@ -1,0 +1,94 @@
+.container {
+    width: 600px;
+    /* background-color: tomato;
+    border: 10px solid #000;
+    border-radius: 20px 40px 60px 80px;
+    padding-top: 60px 120px 30px 90px; */
+    /* 上下、左右 */
+    /* 上、左右、下 */
+    /* 上、右、下、左 */
+    /* top、bottom、left、right */
+    margin: 50px auto;
+    text-align: center;
+}
+
+.ti {
+    width: 160px;
+    border-radius: 9999px;
+    /* 999px很大的數字變成膠囊型，50%變成橢圓或圓形 */
+}
+
+h1 {
+    font-size: 30px;
+    color: #603C2F;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+}
+
+.info {
+    font-size: 14px;
+    color: #603C2F;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+.button {
+    padding: 20px;
+    text-align: center;
+    margin: 30px 0;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    display: block;
+    border: 1px solid #E5BD7F;
+    border-radius: 4px;
+    color: #998577;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+
+.icon {
+    position: absolute;
+    top: 16px;
+    left: 3%;
+    width: 40px;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: #E5BD7F;
+    border-radius: 50%;
+}
+
+/* .box{
+    position: fixed;
+    inset: 20px 30px 40px 50px;
+    background-color: #e7b42681;
+    pointer-events: none; */
+/* 滑鼠游標碰不到它
+} */
+
+.top div {
+    width: 15px;
+    height: 15px;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    transform: rotate(45deg);
+}
+
+.works {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.work-item img {
+    max-width: 100%;
+    height: auto;
+}
